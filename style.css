@@ -1,0 +1,136 @@
+html {
+  font-size: 10px;
+  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  background-image: url("when_the_music_play__wallpaper_by_Soczi.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+
+.typo { 
+  position: absolute;
+  left: 20%;
+  top: 2%;
+
+  font-size: 10em;
+  color: #011431;
+  -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+          transform: skew(-5deg, -5deg) rotate(5deg);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  text-shadow: 1px 1px #011431,
+               2px 2px #011431,
+               3px 3px #011431,
+               4px 4px #011431,
+               5px 5px #011431,
+               6px 6px #011431,
+               7px 7px #011431,
+               8px 8px #011431,
+               9px 9px #011431,
+               10px 10px #00040a,
+               11px 11px 15px rgba(0,0,0,0.5);
+}
+.typo1 {
+  position: absolute;
+  left: 60%;
+  top: 25%;
+  display: inline-block;
+  font-size: 3em;
+  color: #311401;
+  text-shadow: 3px 3px 0px #e7eef1, 8px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.typo2 {
+  position: absolute;
+  left: 87%;
+  top: 90%;
+  display: inline-block;
+  font-size: 2em;
+  color: #311401;
+  text-shadow: 3px 3px 0px #e7eef1, 8px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+}
+
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 10em;
+  color: #011431;
+  -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+          transform: skew(-5deg, -5deg) rotate(5deg);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transition: all .8s ease;
+  text-shadow: 1px 1px #011431,
+               2px 2px #011431,
+               3px 3px #f1f1f1,
+               4px 4px #f1f1f1,
+               5px 5px #f1f1f1,
+               6px 6px #f1f1f1,
+               7px 7px #f1f1f1,
+               8px 8px #f1f1f1,
+               9px 9px #f1f1f1,
+               10px 10px #f1f1f1,
+               11px 11px 15px rgba(0,0,0,0.5);
+  
+  
+}
+.kbdTrans {
+  transform: scale(1.1);
+  text-shadow: 1px 1px #011431,
+                2px 2px #011431,
+                3px 3px #011431,
+                4px 4px #011431,
+                5px 5px #011431,
+                6px 6px #011431,
+                7px 7px #ffc600,
+                8px 8px #ffc600,
+                9px 9px #ffc600,
+                10px 10px #ffc600;
+               /* 11px 11px 15px rgba(0,0,0,0.5); */
+  
+   
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
